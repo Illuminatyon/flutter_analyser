@@ -1,0 +1,7 @@
+numpy>=1.26,<3.0          # Calcul vectoriel, FFT
+scipy>=1.13,<2.0          # Filtres Butterworth, Savitzky-Golay, detrend
+matplotlib>=3.8,<4.0      # Visualisation (LineCollection, colorbar)
+pandas>=2.2,<4.0          # Export CSV
+pyserial>=3.5,<4.0        # Connexion série Arduino/MPU-6050
+
+pytest>=8.0               # Runner de tests unitaires
