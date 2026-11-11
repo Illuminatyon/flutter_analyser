@@ -34,8 +34,10 @@ class AnalysisResult:
     f_low:    float
     f_high:   float
     rms_az:   float
+    amp_az:   float
+    freq_reelle: float
 
-    def resumre(self) -> str:
+    def resume(self) -> str:
         """Retourne un résumé formaté des métriques principales"""
         sep = "=" * 55
         dt = self.t[-1] / (len(self.t) - 1) if len(self.t) > 1 else 0.0
